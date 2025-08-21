@@ -4,7 +4,11 @@
   transition : "convex"
   author : "lakruzz"
   theme: "black"
----
+  separators:
+    section: '\n\n---\n---\n\n'
+    slide: '\n\n---\n\n'
+  background: "#566b8f"
+--- 
 <!-- .slide: data-background="#64505a" -->
 
 ![.t&do](./t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
