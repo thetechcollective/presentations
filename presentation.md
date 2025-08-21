@@ -1,3 +1,9 @@
+---
+  title : "t&do - The DevEx Agency"
+  description : "A presentation about t&do, the DevEx Agency"
+  transition : "fade"
+  author : "lakruzz"
+---
 <!-- .slide: data-background="#64505a" -->
 
 ![.t&do](./t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
