@@ -1,3 +1,7 @@
+---
+  title: t&do
+---
+
 <!-- .slide: data-background="#64505a" -->
 
 ![.t&do](t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
