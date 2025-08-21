@@ -7,7 +7,6 @@
   separators:
     section: '\n\n---\n---\n\n'
     slide: '\n\n---\n\n'
-  background: "#aa0000"
 --- 
 <!-- .slide: data-background="#64505a" -->
 
