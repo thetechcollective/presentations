@@ -1,8 +1,9 @@
 ---
   title : "t&do - The DevEx Agency"
   description : "A presentation about t&do, the DevEx Agency"
-  transition : "fade"
+  transition : "convex"
   author : "lakruzz"
+  theme: "black"
 ---
 <!-- .slide: data-background="#64505a" -->
 
@@ -25,3 +26,13 @@
 ---
 
 ![t&do wheel](./t&do_wheel.png) <!-- .element style="height: 450px; margin: 0 auto 4rem auto; background: transparent; align: left;" -->
+
+---
+
+# some slide
+
+```python
+def hello_world():
+    print("Hello, World!")
+hello_world()
+``` 
