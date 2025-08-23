@@ -13,7 +13,6 @@ separators:
 
 ## Markdown Presentation Loader
 
-<!-- .slide: class="r-fit-text" -->
 
 This project builds on [reveal.js](https://revealjs.com/)
 
