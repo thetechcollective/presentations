@@ -9,26 +9,6 @@ separators:
   slide: '\n\n---\n\n'
 ---
 
-![.tt](./techthat.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
-
-.tech that - this
-
-
-![.t&do_wheel](../t&do_wheel.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
-
-.t&do wheel - parent
-
-
-![.t&do](/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
-
-.t&do - root
-
-![.t&do](../../t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
-
-.t&do - parent parent
-
----
-
 # 🎯 Reveals
 
 ## Markdown Presentation Loader
@@ -79,6 +59,12 @@ Create instant **reveal.js presentations** from GitHub repositories
 
 ```text
 /markdownloader/?owner=lakruzz&repo=presentations&file=demo.md
+```
+
+**Subfolder example:**
+
+```text
+/markdownloader/?owner=thetechcollective&repo=reveals&file=readme/README.md
 ```
 
 ---
@@ -163,30 +149,52 @@ separators:
 
 ## Relative Paths
 
-The loader automatically converts relative paths to absolute GitHub URLs:
+The loader automatically converts relative paths to absolute GitHub URLs, respecting the markdown file's location:
 
-**In your markdown:**
+**Relative paths** (start with `./`) - resolved relative to the markdown file's directory:
 
 ```markdown
 ![My Image](./images/photo.jpg)
 ```
 
-**Becomes:**
+**Absolute paths** (start with `/`) - resolved from the repository root:
 
 ```markdown
-![My Image](https://raw.githubusercontent.com/owner/repo/main/images/photo.jpg)
+![My Logo](/assets/logo.png)
 ```
+
+**Parent directory paths** (start with `../`) - navigate up directory levels:
+
+```markdown
+![Shared Asset](../shared/logo.png)
+![Root Asset](../../logo.png)
+```
+
+**Examples:**
+
+If markdown is at repo root (`file=presentation.md`):
+
+- `./images/photo.jpg` → `https://raw.githubusercontent.com/owner/repo/main/images/photo.jpg`
+- `/assets/logo.png` → `https://raw.githubusercontent.com/owner/repo/main/assets/logo.png`
+- `../logo.png` → `https://raw.githubusercontent.com/owner/repo/main/logo.png` (can't go above root)
+
+If markdown is in subfolder (`file=docs/guide/presentation.md`):
+
+- `./images/photo.jpg` → `https://raw.githubusercontent.com/owner/repo/main/docs/guide/images/photo.jpg`
+- `/assets/logo.png` → `https://raw.githubusercontent.com/owner/repo/main/assets/logo.png`
+- `../shared.png` → `https://raw.githubusercontent.com/owner/repo/main/docs/shared.png`
+- `../../logo.png` → `https://raw.githubusercontent.com/owner/repo/main/logo.png`
 
 ---
 
 ## Supported References
 
-- **Markdown images:** `![alt](./path)`
-- **Markdown links:** `[text](./path)`  
-- **HTML src attributes:** `src="./path"`
-- **HTML href attributes:** `href="./path"`
+- **Markdown images:** `![alt](./path)`, `![alt](/path)`, and `![alt](../path)`
+- **Markdown links:** `[text](./path)`, `[text](/path)`, and `[text](../path)`
+- **HTML src attributes:** `src="./path"`, `src="/path"`, and `src="../path"`
+- **HTML href attributes:** `href="./path"`, `href="/path"`, and `href="../path"`
 
-All `./` prefixed paths are automatically resolved!
+All relative (`./`), absolute (`/`), and parent (`../`) paths are automatically resolved!
 
 ---
 ---
