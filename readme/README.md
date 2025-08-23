@@ -9,9 +9,14 @@ separators:
   slide: '\n\n---\n\n'
 ---
 
-![.t&do](./t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+![.tt](./techthat.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
-![.t&do](./readme/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+.tech that
+
+
+![.t&do](./../t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+
+.t&do
 
 ---
 
