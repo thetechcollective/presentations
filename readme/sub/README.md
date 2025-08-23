@@ -14,14 +14,18 @@ separators:
 .tech that - this
 
 
-![.t&do](../t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+![.t&do_wheel](../t&do_wheel.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
-.t&do - parent
+.t&do wheel - parent
 
 
 ![.t&do](/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
 .t&do - root
+
+![.t&do](../../t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+
+.t&do - parent parent
 
 ---
 
