@@ -9,21 +9,25 @@ separators:
   slide: '\n\n---\n\n'
 ---
 
-# 🎯 Reveals
+# 🎯 Pure MarkDown Reveals
 
 ## Markdown Presentation Loader
 
-Create instant **reveal.js presentations** from GitHub repositories
+This project builds on [reveal.js](https://revealjs.com/)
+
+The purpose it to go MarkDown crazy - and allow _all_ the nice reveal.js features to be available from simple markdown files
+
+All you have to do is to create a reveal-flavoured markdown with your slides. Store it in a public GitHub repository, and load it with the MarkDownLoader
 
 ---
 
 ## ✨ Features
 
-- 📁 **Load from any GitHub repository**
+- 📁 **Load from any publich GitHub repository**
 - 🎨 **Frontmatter configuration support**
-- 🖼️ **Automatic relative path resolution**
+- 🖼️ **Support for relative paths to local self-hosted resources**
 - 🎬 **Theme and transition customization**
-- 📱 **Mobile-friendly interface**
+- 📱 **Everything else that [reveal.js](https://revealjs.com/) promised**
 
 ---
 ---
@@ -34,38 +38,32 @@ Create instant **reveal.js presentations** from GitHub repositories
 
 ## Basic Usage
 
-1. **Navigate to the loader**
-
-   ```text
-   /markdownloader/
-   ```
-
+1. **Navigate to the MarkDownLoader**
+    [reveals.thetechcollective.dev/markdownloader](https://reveals.thetechcollective.dev/markdownloader/)
 2. **Fill in repository details**
-   - GitHub username/organization
-   - Repository name  
-   - Markdown filename (optional)
-
-3. **Click Load** 🎉
+   - **GitHub username/organization** (required)
+   - **Repository name** (required)  
+   - Markdown filename (optional, defaults to `presentation.md`)
+3. There are more settings available, but they are all optional and can be configured in the frontmatter of your markdown file
+4. **Click Load** 🎉
 
 ---
 
-## URL Format
+## URL parameters 
 
-```text
-/markdownloader/?owner=USERNAME&repo=REPOSITORY&file=FILENAME
+YOu can also load presentations directly by specifying URL parameters:
+
+```shell
+owner=USERNAME  #required
+repo=REPOSITORY #required
+file=FILENAME   # optional, may including subfolders, defaults to presentation.md
 ```
 
 **Example:**
 
-```text
-/markdownloader/?owner=lakruzz&repo=presentations&file=demo.md
-```
-
-**Subfolder example:**
-
-```text
-/markdownloader/?owner=thetechcollective&repo=reveals&file=readme/README.md
-```
+[```text
+/markdownloader/?owner=thetechcolelctive&repo=reveals&file=README.md
+```](https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=reveals&file=README.md)
 
 ---
 ---
@@ -95,6 +93,9 @@ separators:
 
 ## Metadata Fields
 
+The following fields are supported for metadata
+The values will be used to populate the HTML `<head>` section:
+
 | Field | Purpose | Example |
 |-------|---------|---------|
 | `title` | Page title | `"My Presentation"` |
@@ -112,7 +113,7 @@ Available themes:
 - `blood` - `night` - `moon` - `solarized`
 
 ```yaml
-theme: "black"
+theme: "moon"
 ```
 
 ---
