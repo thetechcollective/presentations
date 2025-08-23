@@ -21,11 +21,11 @@ All you have to do is to create a reveal-flavoured markdown with your slides. St
 
 ## ✨ Features
 
-- 📁 **Load from any publich GitHub repository**
-- 🎨 **Frontmatter configuration support**
-- 🖼️ **Support for relative paths to local self-hosted resources**
-- 🎬 **Theme and transition customization**
-- 📱 **Everything else that [reveal.js](https://revealjs.com/) promised**
+- 📁 Load from any publich GitHub repository
+- 🎨 Frontmatter configuration support
+- 🖼️ Support for relative paths to local self-hosted resources
+- 🎬 Theme and transition customization
+- 📱 Everything else that [reveal.js](https://revealjs.com/) promised
 
 ---
 ---
