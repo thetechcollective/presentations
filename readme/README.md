@@ -4,9 +4,6 @@ description: "Create instant reveal.js presentations from GitHub repositories wi
 author: "The Tech Collective"
 theme: "lakruzz"
 transition: "convex"
-# separators:
-#  section: '\n\n---\n---\n\n'
-#  slide: '\n\n---\n\n'
 ---
 
 ### 🎯 Pure MarkDown Reveals
