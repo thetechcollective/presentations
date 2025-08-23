@@ -9,9 +9,7 @@ separators:
   slide: '\n\n---\n\n'
 ---
 
-# 🎯 Pure MarkDown Reveals
-
-## Markdown Presentation Loader
+### 🎯 Pure MarkDown Reveals
 
 This project builds on [reveal.js](https://revealjs.com/)
 
