@@ -8,7 +8,7 @@ separators:
   section: '\n\n---\n---\n\n'
   slide: '\n\n---\n\n'
 ---
-<!-- .slide style="font-size:smaller;" -->
+<!-- .slide style="font-size:20px;" -->
 
 # 🎯 Pure MarkDown Reveals
 
