@@ -2,8 +2,8 @@
 title: "Reveals - Markdown Presentation Loader"
 description: "Create instant reveal.js presentations from GitHub repositories with frontmatter support"
 author: "The Tech Collective"
-# theme: "white"
-transition: "slide"
+theme: "lakruzz"
+transition: "convex"
 # separators:
 #  section: '\n\n---\n---\n\n'
 #  slide: '\n\n---\n\n'
