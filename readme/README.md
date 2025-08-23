@@ -11,17 +11,17 @@ separators:
 
 ![.tt](./techthat.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
-.tech that
+.tech that - this
 
 
 ![.t&do](../t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
-.t&do
+.t&do - parent
 
 
 ![.t&do](/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
-.t&do
+.t&do - root
 
 ---
 
