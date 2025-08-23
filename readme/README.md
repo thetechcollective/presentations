@@ -14,7 +14,12 @@ separators:
 .tech that
 
 
-![.t&do](./../t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+![.t&do](../t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+
+.t&do
+
+
+![.t&do](/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
 .t&do
 
