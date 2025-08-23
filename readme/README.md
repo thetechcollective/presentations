@@ -8,7 +8,7 @@ separators:
   section: '\n\n---\n---\n\n'
   slide: '\n\n---\n\n'
 ---
-<!-- .slide class="r-fit-text -->
+<!-- .slide style="font-size:smaller;" -->
 
 # 🎯 Pure MarkDown Reveals
 
@@ -16,7 +16,7 @@ separators:
 
 This project builds on [reveal.js](https://revealjs.com/)
 
-The purpose it to go MarkDown crazy - and allow _all_ the nice reveal.js features to be available from simple markdown files
+The purpose it to go MarkDown crazy - and allow _all_ the nice reveal.js features to be available from simple markdown files.
 
 All you have to do is to create a reveal-flavoured markdown with your slides. Store it in a public GitHub repository, and load it with the MarkDownLoader
 
