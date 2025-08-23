@@ -13,7 +13,6 @@ separators:
 
 ## Markdown Presentation Loader
 
-
 This project builds on [reveal.js](https://revealjs.com/)
 
 The purpose it to go MarkDown crazy - and allow _all_ the nice reveal.js features to be available from simple markdown files
