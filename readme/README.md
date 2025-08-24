@@ -44,7 +44,7 @@ All you have to do is to create a reveal-flavoured markdown with your slides. St
 
 ## URL parameters 
 
-YOu can also load presentations directly by specifying URL parameters:
+You can also load presentations directly by specifying URL parameters:
 
 ```shell
 owner=USERNAME  #required
@@ -54,9 +54,7 @@ file=FILENAME   # optional, may including subfolders, defaults to presentation.m
 
 **Example:**
 
-[```text
-/markdownloader/?owner=thetechcolelctive&repo=reveals&file=README.md
-```](https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=reveals&file=README.md)
+[`text/markdownloader/?owner=thetechcolelctive&repo=reveals&file=README.md`](https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=reveals&file=README.md)
 
 ---
 ---
