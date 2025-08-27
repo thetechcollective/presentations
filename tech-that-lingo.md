@@ -1,9 +1,8 @@
 ---
-  title : "t&do - The DevEx Agency"
-  description : "A presentation about t&do, the DevEx Agency"
-  transition : "convex"
-  author : "lakruzz"
---- 
+title: "Reveals - Markdown Presentation Loader"
+description: "Create instant reveal.js presentations from GitHub repositories with frontmatter support"
+author: "The Tech Collective"
+---
 <!-- .slide: data-background="#64505a" -->
 
 ![.t&do](./t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
@@ -14,8 +13,7 @@
 ---
 
 <!-- .slide: data-background="#af9eb5" -->
-
-![.tt](./techthat.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
+![.tech that](./techthat.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
 <q>We want to help clients experience best-in-class software development through having the best collaborating DevEx team in Scandinavia​</q>
 <!-- .element style="color:white;" -->
@@ -24,13 +22,3 @@
 ---
 
 ![t&do wheel](./t&do_wheel.png) <!-- .element style="height: 450px; margin: 0 auto 4rem auto; background: transparent; align: left;" -->
-
----
-
-# some slide
-
-```python
-def hello_world():
-    print("Hello, World!")
-hello_world()
-``` 
