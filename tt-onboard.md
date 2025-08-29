@@ -88,3 +88,6 @@ You have options:
 
 - Use Microsoft's [instructions](https://learn.microsoft.com/en-us/windows/wsl/install)
 - Start Docker Desktop ad let it [finish the job](https://docs.docker.com/desktop/features/wsl/)
+
+# Install Ubuntu
+
