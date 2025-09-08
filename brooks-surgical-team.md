@@ -4,6 +4,12 @@ description : "Dodging the bullet of Brooks Law"
 transition : "convex"
 author : "lakruzz"
 ---
+
+
+![.t&do](./assets/surgical-team.jpg) <!-- .element style="height: 580px; margin: 0 auto 4rem auto; background: transparent;" -->
+
+---
+
 <!-- .slide: style="font-size:25px;" -->
 
 ## Context
@@ -26,7 +32,7 @@ The hole is simply not big enough to fit more diggers.<br/>The manoeuver room is
 
 We have two senior developer who over the past 10 months has build up valuable business knowledge and established good contacts with end-users at the customer.
 
-Our plan is to split the team in two (with a reference to Fred Brook's surgical teams) an make the work in parallel. Brook argues in his _"No Silver Bullet essay"_. That the only thing that can overcome the inherit complexity in software and speed up throughput is either to _reuse more code_, or to _(truly) work in parallel_.
+Our plan is to split the team in two (with a reference to Fred Brook's surgical teams) an make the work in parallel. Brook argues in his _"No Silver Bullet essay"_. That the only thing that can overcome the inherit complexity in software and speed up throughput is either to **_reuse more code_**, or to (truly)**_work in parallel_**.
 
 You can't rush a pregnancy ...but two women can be pregnant at the same time.
 
