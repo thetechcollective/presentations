@@ -26,6 +26,7 @@ This is our leaders pointing out in the horizon setting us off on a journey - tr
 
 ---
 ---
+
 # Propmt
 <!-- .slide: data-background="./assets/techthat.png" data-background-size="100px" data-background-position="bottom 20px left 20px" -->
 
@@ -38,7 +39,7 @@ Define the challenge as you see it. Formulate it as if it was a prompt to a GPT.
 ---
 
 # Propmt
-<!-- .slide: data-background="./assets/techthat.png" data-background-size="100px" data-background-position="bottom 20px left 20px" style="font-size:25px;" -->
+<!-- .slide: data-background="./assets/techthat.png" data-background-size="100px" data-background-position="bottom 20px left 20px" style="font-size:15px;" -->
 
 Our tech company has 30+ full-time employees and has existed for four years. Our company is called "Test & DevOps" and we deliver servies within four distinct SME areas: Test Automation, Test Management, Software Development and Customer Experience design. We are a subsidiary of a management consultulting bureau with 1700 management consultants. Our compnay is a sub brand under theirs and most of the work we deliver is done in the roles as supplier to our mother company.
 
@@ -46,7 +47,8 @@ One specific overarching problem we've had up until now is, that even though our
 
 We have come up with our vision statment: _"We want to be be recognized as the one-stop partner for wicked problem-solving across the full SDLC, by leveraging both advisory- and implementation services"_. This vision is also indicating that we're hoping to step out of the shadow of our mother comapny and start building our own customer relations where we can deliver more holistic services - using the full potential of all colleagues in "Test and DevOps"
 
-Our next step is to come up with a strategy to deliver on this. Please held formulate this strategy - consider the following
+Our next step is to come up with a strategy to deliver on this. Please held formulate this strategy - consider the following:
+
 - What products and services should we develop. 
 - What's the narrative that will attract attention from potential customers and potential recruits
 - What could be or _"why"_ ...or our _"purpose"_
