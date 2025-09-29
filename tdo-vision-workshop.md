@@ -6,7 +6,7 @@
 ---
 <!-- .slide: data-background="#111111" -->
 
-[![reveal markdown](./assets/revealmarkdown.png)<!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->](https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=presentations&file=tdo-vison-workshop.md) 
+[![reveal markdown](./assets/revealmarkdown.png)<!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->](https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=presentations&file=tdo-vision-workshop.md) 
 
 Compliant with the `markdownloader`<br/>
 click the logo to see it live!
