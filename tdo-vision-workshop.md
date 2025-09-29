@@ -4,15 +4,14 @@
   transition : "convex"
   author : "lakruzz"
 ---
-
 <!-- .slide: data-background="#64505a" -->
+
 <!-- Load it to see it live: https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=presentations&file=tdo-vision-workshop.md -->
 
 ![.t&do](./assets/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
 <q>We want to be be recognized as the one-stop partner for wicked problem-solving across the full SDLC, by leveraging both advisory- and implementation services</q>
 <!-- .element style="color:white;" -->
-
 
 Note:
 This is our leaders pointing out in the horizon setting us off on a journey - trying to reach that point.
@@ -27,7 +26,7 @@ Deliver a strategy based on the vision
 
 ---
 
-## Define the problem (challenge) youself
+### Define the problem (challenge) youself
 
 #### ...as if it was a prompt to a GPT
 
