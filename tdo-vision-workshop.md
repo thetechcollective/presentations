@@ -4,9 +4,9 @@
   transition : "convex"
   author : "lakruzz"
 ---
-<!-- .slide: data-background="#64505a" -->
 
 <!-- Load it to see it live: https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=presentations&file=tdo-vision-workshop.md -->
+<!-- .slide: data-background="#64505a" -->
 
 ![.t&do](./assets/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
