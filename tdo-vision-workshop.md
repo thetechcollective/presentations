@@ -4,10 +4,9 @@
   transition : "convex"
   author : "lakruzz"
 ---
+<!-- .slide: data-background="#111111" -->
 
 <!-- Load it to see it live: https://reveals.thetechcollective.dev/markdownloader/?owner=thetechcollective&repo=presentations&file=tdo-vision-workshop.md -->
-
-<!-- .slide: data-background="#64505a" -->
 
 ![.t&do](./assets/t&do.png) <!-- .element style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" -->
 
@@ -40,7 +39,7 @@ Define the challenge as you see it.
 ---
 
 <!-- .slide: data-background="./assets/techthat.png" data-background-size="100px" data-background-position="bottom 20px left 20px" style="font-size:15px;" -->
-## Propmt Example
+## Prompt Example
 
 Our tech company is called "Test & DevOps". We are 30+ full-time employees. It has existed for four years.  We deliver servies within four distinct SME areas: Test Automation, Test Management, Software Development and Customer Experience design. We are a subsidiary of a management consultulting bureau with 1700 management consultants. Our compnay is a sub brand under theirs and most of the work we deliver is done in the role as sub supplier to our mother company.
 
