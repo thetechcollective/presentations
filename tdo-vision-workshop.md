@@ -33,7 +33,7 @@ The journey to the vision is called a **strategy** — in other words we need to
 Our leaders<br/>
 standing on a pedestal<br/>
 pointing to our goal<br/>
-in the the far distance
+in the far distance
 <!-- .element: style="font-size:20px;" -->
 
 ---
